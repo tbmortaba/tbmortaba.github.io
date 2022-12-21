@@ -14,6 +14,7 @@ body {
     height: 100vh;
     position: relative;
     color: white;
+    padding: 0px;
 }
 
 .overlay {
@@ -27,9 +28,7 @@ body {
 
 #banner {
     font-size: 40px;
-    padding-top: 17%;
-    padding-left: 5%;
-    padding-right: 45%;
+    padding: 17% 45% 0% 5%;
 }
 
 #name {
@@ -82,8 +81,44 @@ body {
     font-size: 35px;
 }
 
-.contents {
-    background-color: beige;
-    padding: 20px;
+.content {
+    background-color: maroon;
+    margin: 0px;
+    padding: 5px;
+    color: white;
 }
 
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: gold;
+    padding: 15px 0 15px 0;
+}
+
+#about {
+    padding: 0 20% 0 20%;
+    align-items: center;
+    display: flex;
+}
+
+#profile-desc {
+    margin-left: 50px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#background {
+    padding: 0 20% 0 20%;
+    align-items: center;
+}
+
+.profile-entry {
+    line-height: 200%;
+    margin-left: 50px;
+}
+
+#section-contact {
+    text-align: center;
+    align-items: center;
+}
